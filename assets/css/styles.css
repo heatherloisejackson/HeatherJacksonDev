@@ -1,0 +1,41 @@
+body {
+  background-color: #f81146;
+  color: white;
+}
+
+@font-face { font-family: "Migra-Extrabold"; src: url('../fonts/Migra/Migra-Extrabold.ttf'); }
+@font-face { font-family: "Agrandir-Narrow"; src: url('../fonts/Agrandir/Agrandir-Narrow.otf'); }  
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  Margin: 3em;
+  align-items: baseline;
+}
+
+#head_name {
+  font-family: "Migra-Extrabold", sans-serif;
+  font-size: 2em;
+  padding-left: 1em;
+}
+
+#head_contact {
+  font-family: "Agrandir-Narrow", sans-serif;
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em
+}
+
+h1 {
+  font-family: "Migra-Extrabold";
+  font-size: 3.5em;
+}
+
+header img {
+  max-width: 40%;
+  padding-top: 17%;
+}
