@@ -15,39 +15,40 @@ nav {
 
 #head_name {
   font-family: "Migra-Extrabold", sans-serif;
-  font-size: 2em;
-  padding-left: 1em;
+  font-size: 2.3em;
+  padding-left: 1.5em;
 }
 
 #head_contact {
   font-family: "Agrandir-Narrow", sans-serif;
   text-decoration: underline;
-  font-size: 1.1em;
+  font-size: 1.8em;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  margin: 3em
+  margin: 5em
 }
 
 h1 {
   font-family: "Migra-Extrabold";
-  font-size: 3.5em;
+  font-size: 4.5em;
 }
 
 h2 {
   font-family: "Migra-Extrabold";
-  font-size: 3.2em;
+  font-size: 4em;
 }
 
 h3 {
   font-family: "Migra-Extrabold";
-  font-size: 3em;
+  font-size: 2em;
 }
 
 p {
-  font-family: "Agrandir-Narrow"
+  font-family: "Agrandir-Narrow";
+  font-size: 1.5em;
 }
 
 header img {
@@ -60,7 +61,7 @@ header img {
   grid-template-columns: repeat(3, 1fr);
   margin-top: 15%;
   margin-right: 4em;
-  margin-left: 10em;
+  margin-left: 15em;
 }
 
 .about_title {
@@ -91,3 +92,49 @@ header img {
   grid-row-end: 5; */
   padding: 5em 5em 0 0;
 }
+
+.work {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 15%;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.work_title {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.work1 {
+  padding: 20% 20% 20% 0;
+}
+
+.work2 {
+  padding: 60% 10% 0 10%;
+}
+
+.work3 {
+  padding: 0 0 40% 20%;
+}
+
+.work img {
+  max-width: 100%;
+}
+
+a {
+  color: white;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 15%;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.services img {
+  max-width: 50%;
+}
+
